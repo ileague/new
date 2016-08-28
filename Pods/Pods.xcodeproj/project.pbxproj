@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07675AECB806592FC1A9EE3279A2FF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0CAA2C8C197BF16636E528043C759383 /* Pods-signinTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD79CDBF6AD307F0EB12B6C44108F79 /* Pods-signinTests-dummy.m */; };
+		105248BA1E53C28216627C9088DF31E7 /* Pods-signin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A73D369A4454D892581A4832FA06E /* Pods-signin-dummy.m */; };
+		92DCFCD694593CB0B1FCC7851148B12A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		ADF9502D8DB5013744AAB0A286B68596 /* Pods-signin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EE8430C781CD9F0B025AD41DC7BF99 /* Pods-signin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B690076A4EA2121F351A496914C97D0B /* Pods-signinUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7605EFFD3E0F89CAEB6ACB06CCF692A /* Pods-signinUITests-dummy.m */; };
+		E20F3DFA7B48725245A5219FC8B09718 /* Pods-signinUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA8DE60D911E20F2FC190F1AD5C5841 /* Pods-signinUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F68A6B55F77BEF0659E5144C96F68D24 /* Pods-signinTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C9DC5EF88D2D704182D14443EA9A17 /* Pods-signinTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFBC07D3D11ED313F8684E894147E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0690B02DA41066CE1F1798BCF565E222 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		1815D2A3010404CD543E84C5268BCABC /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		28E068939D9EE20C8EF10B07D3E31F4C /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		2D9D75227C10DEDC38304A17A5B590E0 /* Pods-signinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-signinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		32A91EBEE85D3628B47CB863C077DF40 /* Pods-signinTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-signinTests-frameworks.sh"; sourceTree = "<group>"; };
+		3D98FD61CE811A305087F182827C77C4 /* Pods-signinUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-signinUITests-resources.sh"; sourceTree = "<group>"; };
+		4DD84742871A6446D9EC6D3556EE9043 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		4ECCE3402153259021AF24C923F9DB31 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		5269BA085BCD7975A14A1F46461A0D54 /* Pods-signinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-signinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56CD07A216C5C534474B1A8ACB3752D4 /* Pods-signinUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-signinUITests-frameworks.sh"; sourceTree = "<group>"; };
+		59AC1F60D3C6E3560C84E9F0BF70F1CB /* Pods_signinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_signinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B279898184E93E3DF5029782EFBE7B9 /* Pods-signin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-signin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D8FFD40C72A43A4AEDB0AFFFCBF8F29 /* Pods-signinTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-signinTests.modulemap"; sourceTree = "<group>"; };
+		5E5A73D369A4454D892581A4832FA06E /* Pods-signin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-signin-dummy.m"; sourceTree = "<group>"; };
+		63DDFEFC1970DD137BD9F7846F09ECAB /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		6CD79CDBF6AD307F0EB12B6C44108F79 /* Pods-signinTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-signinTests-dummy.m"; sourceTree = "<group>"; };
+		74221A11F5559623FF3D423E6DCCB341 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		790EAB236F290057CD9F83E525310727 /* Pods-signinUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-signinUITests.modulemap"; sourceTree = "<group>"; };
+		7CE655CD2383084449467BCBD6DF3154 /* Pods-signin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-signin.debug.xcconfig"; sourceTree = "<group>"; };
+		8C18A8BB696F3F1C10374471EA79B546 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		8C345C35B243A6EECE48C5647FCB1230 /* Pods-signinTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-signinTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94EE8430C781CD9F0B025AD41DC7BF99 /* Pods-signin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-signin-umbrella.h"; sourceTree = "<group>"; };
+		9E28A429BFF4F734594F2A68937D07A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F9CDEEC3B6BA4298C3440C98C52CEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A423E7A34BB193550774F37E820C2683 /* Pods-signinTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-signinTests-resources.sh"; sourceTree = "<group>"; };
+		A6DBDE45018ADD5CB8A89AC0141DBCA5 /* Pods-signinTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-signinTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B07914CE61B45E2BCCE466D2E4FCE05F /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		B4681D183129176945E0774B09EC4ECC /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		B7605EFFD3E0F89CAEB6ACB06CCF692A /* Pods-signinUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-signinUITests-dummy.m"; sourceTree = "<group>"; };
+		C3D704EC96478D9A46D3A7DA8EF659E2 /* Pods-signinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-signinTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD80C547D6C5EFA002429E953B8AFD2F /* Pods-signin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-signin-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0FBCE7699A341D1761F08AA08DDFB89 /* Pods-signinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-signinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1353A7B505F063B498D53C11401434A /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		D1BA14E01ACFDA1A47F5250C71B51D1E /* Pods-signin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-signin-frameworks.sh"; sourceTree = "<group>"; };
+		D2E119C3E41BCFD7B29C6E2CEA8A3621 /* Pods_signin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_signin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D556CDEF5831C55F5FAEC7DDC6CA1E90 /* Pods-signin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-signin-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8F854496FC9A6086528F1EB9CAE5207 /* Pods-signinUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-signinUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBA8DE60D911E20F2FC190F1AD5C5841 /* Pods-signinUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-signinUITests-umbrella.h"; sourceTree = "<group>"; };
+		E2C9DC5EF88D2D704182D14443EA9A17 /* Pods-signinTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-signinTests-umbrella.h"; sourceTree = "<group>"; };
+		E5776040316815D1AFE2BF49C6C606AA /* Pods-signinUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-signinUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBF4507660BF253396A7306BC49AFAF5 /* Pods_signinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_signinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49019F577398D68950086920B7B7783 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		F71EADC90BA4D74D0960D471094F0B07 /* Pods-signin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-signin.modulemap"; sourceTree = "<group>"; };
+		FC39496FA7AF4BE8A9138E12824B28A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF288017A6BDC6D08AFFDACDA8AA1A9 /* Pods-signin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-signin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		177373A77CA3C82A1EC48F28BDF8C281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07675AECB806592FC1A9EE3279A2FF77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEB1A4D7A4CE084927479AE91E0BFD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFBC07D3D11ED313F8684E894147E3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC470A0558CEE8779AB71F85E0309D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DCFCD694593CB0B1FCC7851148B12A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DE93CB1A1751D6B5E41CC16E30DBF8 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				4DD84742871A6446D9EC6D3556EE9043 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		0CAEB82C55F40E5FDE7CA8ABFB149257 /* Pods-signinTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E28A429BFF4F734594F2A68937D07A9 /* Info.plist */,
+				5D8FFD40C72A43A4AEDB0AFFFCBF8F29 /* Pods-signinTests.modulemap */,
+				8C345C35B243A6EECE48C5647FCB1230 /* Pods-signinTests-acknowledgements.markdown */,
+				A6DBDE45018ADD5CB8A89AC0141DBCA5 /* Pods-signinTests-acknowledgements.plist */,
+				6CD79CDBF6AD307F0EB12B6C44108F79 /* Pods-signinTests-dummy.m */,
+				32A91EBEE85D3628B47CB863C077DF40 /* Pods-signinTests-frameworks.sh */,
+				A423E7A34BB193550774F37E820C2683 /* Pods-signinTests-resources.sh */,
+				E2C9DC5EF88D2D704182D14443EA9A17 /* Pods-signinTests-umbrella.h */,
+				2D9D75227C10DEDC38304A17A5B590E0 /* Pods-signinTests.debug.xcconfig */,
+				C3D704EC96478D9A46D3A7DA8EF659E2 /* Pods-signinTests.release.xcconfig */,
+			);
+			name = "Pods-signinTests";
+			path = "Target Support Files/Pods-signinTests";
+			sourceTree = "<group>";
+		};
+		2C152434E318BDFC6AAA4637635C92CB /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				34A0684B5AC997FEE0A96FA25B4950BF /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		34A0684B5AC997FEE0A96FA25B4950BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0690B02DA41066CE1F1798BCF565E222 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		453639F77B3EB6B4CF18A5FD54CDAE71 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				48FDA7781B212532661B34258760D0BC /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		483041F8553B0ECDB95A2349B56ABB22 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				988B140CC509ECB52D726489B2E4D9F8 /* Pods-signin */,
+				0CAEB82C55F40E5FDE7CA8ABFB149257 /* Pods-signinTests */,
+				F085733722063FEC5DA2722007B8A2D6 /* Pods-signinUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		48FDA7781B212532661B34258760D0BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F49019F577398D68950086920B7B7783 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52DBBAC8136B72D335257521179F4002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1353A7B505F063B498D53C11401434A /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6260985D180B8FEB7FC63E1953C6BB6B /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C116C31BAE424153AD00D6BFFC07ED1C /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		6580F1087CB9A5ADBF554447B2181AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4681D183129176945E0774B09EC4ECC /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D747591A8FEEFD8CD1042642C4C3A35F /* Pods */,
+				F6CC1DDC3D7DCD47D2FED3852B5AB485 /* Products */,
+				483041F8553B0ECDB95A2349B56ABB22 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		863D8178306DF5EA35115F54FE9DB8DC /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				02DE93CB1A1751D6B5E41CC16E30DBF8 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		89C482C500CAC5298583C8F231C91FDB /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F4165ED857874553CD1CDC90E0ECC575 /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		988B140CC509ECB52D726489B2E4D9F8 /* Pods-signin */ = {
+			isa = PBXGroup;
+			children = (
+				A0F9CDEEC3B6BA4298C3440C98C52CEB /* Info.plist */,
+				F71EADC90BA4D74D0960D471094F0B07 /* Pods-signin.modulemap */,
+				5B279898184E93E3DF5029782EFBE7B9 /* Pods-signin-acknowledgements.markdown */,
+				D556CDEF5831C55F5FAEC7DDC6CA1E90 /* Pods-signin-acknowledgements.plist */,
+				5E5A73D369A4454D892581A4832FA06E /* Pods-signin-dummy.m */,
+				D1BA14E01ACFDA1A47F5250C71B51D1E /* Pods-signin-frameworks.sh */,
+				CD80C547D6C5EFA002429E953B8AFD2F /* Pods-signin-resources.sh */,
+				94EE8430C781CD9F0B025AD41DC7BF99 /* Pods-signin-umbrella.h */,
+				7CE655CD2383084449467BCBD6DF3154 /* Pods-signin.debug.xcconfig */,
+				FDF288017A6BDC6D08AFFDACDA8AA1A9 /* Pods-signin.release.xcconfig */,
+			);
+			name = "Pods-signin";
+			path = "Target Support Files/Pods-signin";
+			sourceTree = "<group>";
+		};
+		A6AD1E8361F23DD7FC20CF1F5F6193F0 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				BA74169EA2E244B7BF9E5C173AC728CD /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		BA74169EA2E244B7BF9E5C173AC728CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B07914CE61B45E2BCCE466D2E4FCE05F /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCE09D42006DAF8C572748336E33FF2D /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				ED95977A669984D9A1D4265992675740 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		C0EB6B9D509FDACF21C6699D1A63AED1 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				74221A11F5559623FF3D423E6DCCB341 /* FIRInstanceID.h */,
+				D0DC1400A58B4FBDEC03D4DA33080DA1 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		C116C31BAE424153AD00D6BFFC07ED1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ECCE3402153259021AF24C923F9DB31 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D019297FC3F595D3EECFADA365A2C945 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D9872C8C9F7733E75624E2EFACAC9A3B /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		D0DC1400A58B4FBDEC03D4DA33080DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C18A8BB696F3F1C10374471EA79B546 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D747591A8FEEFD8CD1042642C4C3A35F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				863D8178306DF5EA35115F54FE9DB8DC /* Firebase */,
+				2C152434E318BDFC6AAA4637635C92CB /* FirebaseAnalytics */,
+				E823C0D24FE746E423D1637619881E01 /* FirebaseAuth */,
+				BCE09D42006DAF8C572748336E33FF2D /* FirebaseDatabase */,
+				C0EB6B9D509FDACF21C6699D1A63AED1 /* FirebaseInstanceID */,
+				EA217487184645F1182E6A15A6593A6F /* FirebaseStorage */,
+				A6AD1E8361F23DD7FC20CF1F5F6193F0 /* GoogleInterchangeUtilities */,
+				D019297FC3F595D3EECFADA365A2C945 /* GoogleNetworkingUtilities */,
+				89C482C500CAC5298583C8F231C91FDB /* GoogleParsingUtilities */,
+				453639F77B3EB6B4CF18A5FD54CDAE71 /* GoogleSymbolUtilities */,
+				6260985D180B8FEB7FC63E1953C6BB6B /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9872C8C9F7733E75624E2EFACAC9A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28E068939D9EE20C8EF10B07D3E31F4C /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E823C0D24FE746E423D1637619881E01 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				6580F1087CB9A5ADBF554447B2181AC5 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		EA217487184645F1182E6A15A6593A6F /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				52DBBAC8136B72D335257521179F4002 /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		ED95977A669984D9A1D4265992675740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1815D2A3010404CD543E84C5268BCABC /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F085733722063FEC5DA2722007B8A2D6 /* Pods-signinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC39496FA7AF4BE8A9138E12824B28A9 /* Info.plist */,
+				790EAB236F290057CD9F83E525310727 /* Pods-signinUITests.modulemap */,
+				E5776040316815D1AFE2BF49C6C606AA /* Pods-signinUITests-acknowledgements.markdown */,
+				D8F854496FC9A6086528F1EB9CAE5207 /* Pods-signinUITests-acknowledgements.plist */,
+				B7605EFFD3E0F89CAEB6ACB06CCF692A /* Pods-signinUITests-dummy.m */,
+				56CD07A216C5C534474B1A8ACB3752D4 /* Pods-signinUITests-frameworks.sh */,
+				3D98FD61CE811A305087F182827C77C4 /* Pods-signinUITests-resources.sh */,
+				DBA8DE60D911E20F2FC190F1AD5C5841 /* Pods-signinUITests-umbrella.h */,
+				D0FBCE7699A341D1761F08AA08DDFB89 /* Pods-signinUITests.debug.xcconfig */,
+				5269BA085BCD7975A14A1F46461A0D54 /* Pods-signinUITests.release.xcconfig */,
+			);
+			name = "Pods-signinUITests";
+			path = "Target Support Files/Pods-signinUITests";
+			sourceTree = "<group>";
+		};
+		F4165ED857874553CD1CDC90E0ECC575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63DDFEFC1970DD137BD9F7846F09ECAB /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6CC1DDC3D7DCD47D2FED3852B5AB485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E119C3E41BCFD7B29C6E2CEA8A3621 /* Pods_signin.framework */,
+				EBF4507660BF253396A7306BC49AFAF5 /* Pods_signinTests.framework */,
+				59AC1F60D3C6E3560C84E9F0BF70F1CB /* Pods_signinUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03D024CE40322934E6F5B08AEC488BF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF9502D8DB5013744AAB0A286B68596 /* Pods-signin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1856C1A9CAFD9C7848464DF6748351 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20F3DFA7B48725245A5219FC8B09718 /* Pods-signinUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6224876E80D614E7BAD7E64AEAB1688A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68A6B55F77BEF0659E5144C96F68D24 /* Pods-signinTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31747D63AEDF8727ED63431D09715A31 /* Pods-signinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0F87F6043BCAE8EEB1FE0C35CF70B0 /* Build configuration list for PBXNativeTarget "Pods-signinUITests" */;
+			buildPhases = (
+				32ECEAC69796DFB57011443E11B8A935 /* Sources */,
+				BC470A0558CEE8779AB71F85E0309D9A /* Frameworks */,
+				0C1856C1A9CAFD9C7848464DF6748351 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-signinUITests";
+			productName = "Pods-signinUITests";
+			productReference = 59AC1F60D3C6E3560C84E9F0BF70F1CB /* Pods_signinUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		341DFFCC2BCD0C69595AC31E4833195B /* Pods-signinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722B07D1D2D4BACE4194A82A64E75A18 /* Build configuration list for PBXNativeTarget "Pods-signinTests" */;
+			buildPhases = (
+				DB80A733B834A594980FF8E609EC81E3 /* Sources */,
+				177373A77CA3C82A1EC48F28BDF8C281 /* Frameworks */,
+				6224876E80D614E7BAD7E64AEAB1688A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-signinTests";
+			productName = "Pods-signinTests";
+			productReference = EBF4507660BF253396A7306BC49AFAF5 /* Pods_signinTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECE7DBE0CD12D37776FF97DAB4C47C2D /* Pods-signin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F20CABE2AC039D128E3D8BAAB457D8 /* Build configuration list for PBXNativeTarget "Pods-signin" */;
+			buildPhases = (
+				4408C253ADE64108D2192A2C2AC419E6 /* Sources */,
+				AFEB1A4D7A4CE084927479AE91E0BFD4 /* Frameworks */,
+				03D024CE40322934E6F5B08AEC488BF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-signin";
+			productName = "Pods-signin";
+			productReference = D2E119C3E41BCFD7B29C6E2CEA8A3621 /* Pods_signin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F6CC1DDC3D7DCD47D2FED3852B5AB485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE7DBE0CD12D37776FF97DAB4C47C2D /* Pods-signin */,
+				341DFFCC2BCD0C69595AC31E4833195B /* Pods-signinTests */,
+				31747D63AEDF8727ED63431D09715A31 /* Pods-signinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32ECEAC69796DFB57011443E11B8A935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B690076A4EA2121F351A496914C97D0B /* Pods-signinUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4408C253ADE64108D2192A2C2AC419E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105248BA1E53C28216627C9088DF31E7 /* Pods-signin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB80A733B834A594980FF8E609EC81E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAA2C8C197BF16636E528043C759383 /* Pods-signinTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		237A413AC6D7C3AF37A31E41FD9195A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D704EC96478D9A46D3A7DA8EF659E2 /* Pods-signinTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-signinTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-signinTests/Pods-signinTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_signinTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29B3BCE6A69D7F51231EFB4FD1AFCB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5269BA085BCD7975A14A1F46461A0D54 /* Pods-signinUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-signinUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-signinUITests/Pods-signinUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_signinUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B52D043DF71783E30DAC287F96F2E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF288017A6BDC6D08AFFDACDA8AA1A9 /* Pods-signin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-signin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-signin/Pods-signin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_signin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FF948F105957EE47CAFCD3592DD1064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE655CD2383084449467BCBD6DF3154 /* Pods-signin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-signin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-signin/Pods-signin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_signin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		976B461FD5AD5F091005128F74D83215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FBCE7699A341D1761F08AA08DDFB89 /* Pods-signinUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-signinUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-signinUITests/Pods-signinUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_signinUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC20758618A694EC3F93BF1E78374095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9D75227C10DEDC38304A17A5B590E0 /* Pods-signinTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-signinTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-signinTests/Pods-signinTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_signinTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0F87F6043BCAE8EEB1FE0C35CF70B0 /* Build configuration list for PBXNativeTarget "Pods-signinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976B461FD5AD5F091005128F74D83215 /* Debug */,
+				29B3BCE6A69D7F51231EFB4FD1AFCB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F20CABE2AC039D128E3D8BAAB457D8 /* Build configuration list for PBXNativeTarget "Pods-signin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF948F105957EE47CAFCD3592DD1064 /* Debug */,
+				7B52D043DF71783E30DAC287F96F2E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722B07D1D2D4BACE4194A82A64E75A18 /* Build configuration list for PBXNativeTarget "Pods-signinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC20758618A694EC3F93BF1E78374095 /* Debug */,
+				237A413AC6D7C3AF37A31E41FD9195A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
